@@ -1,6 +1,6 @@
 # Animeks Responsi Mobile IF-D
 
-Project Flutter untuk studi kasus responsi **Keripikroll**, aplikasi browsing anime yang mengambil data dari **Kitsu API**.
+Project Flutter untuk studi kasus responsi **Animeks**, aplikasi browsing anime yang mengambil data dari **Kitsu API**.
 
 ## Ketentuan yang Diimplementasikan
 
