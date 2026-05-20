@@ -1,0 +1,28 @@
+name: keripikroll_responsi_mobile
+description: Aplikasi responsi Praktikum Mobile IF-D - Keripikroll anime app dengan Kitsu API, GetX, Hive, SharedPreferences, Notification, dan LBS.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  get: ^4.6.6
+  cached_network_image: ^3.4.1
+  flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.4
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

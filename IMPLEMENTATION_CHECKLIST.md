@@ -1,0 +1,33 @@
+# Checklist Implementasi Responsi Prak Mobile IF-D
+
+- [x] Studi kasus Keripikroll anime app.
+- [x] Data dinamis dari Kitsu API.
+- [x] Endpoint list anime: `/anime/?page[limit]=20&page[offset]=0`.
+- [x] Endpoint detail anime: `/anime/{anime_id}`.
+- [x] Fetch dan parse API dipisah di `lib/data/services/api_service.dart`.
+- [x] Model data dipisah di `lib/data/models/anime_model.dart`.
+- [x] Login dengan username dan password bebas.
+- [x] Session login disimpan dengan SharedPreferences.
+- [x] Splash screen mengecek session login.
+- [x] Home menggunakan BottomNavigationBar dengan Home, Favorite, Profile.
+- [x] Home menampilkan GridView anime.
+- [x] Item anime menampilkan poster image, nama en_jp, rating umur, episode, rating.
+- [x] Loading indicator saat load list anime.
+- [x] Detail Page dibuka dari klik anime.
+- [x] Detail Page fetch ulang berdasarkan ID anime.
+- [x] Detail menampilkan cover hero, rating, rating umur, episode, sinopsis.
+- [x] Button static Nonton.
+- [x] Button Favorite memiliki UI berbeda saat sudah/ belum favorit.
+- [x] User bisa kembali dari Detail Page.
+- [x] Loading indicator saat load detail anime.
+- [x] Favorite Page menampilkan list anime favorit.
+- [x] Favorite item menampilkan poster, nama, rating.
+- [x] Tombol delete untuk hapus Favorite.
+- [x] Klik item Favorite menuju Detail Page.
+- [x] Data Favorite disimpan dengan Hive.
+- [x] Profile menampilkan username dari SharedPreferences.
+- [x] Profile menampilkan jumlah anime favorit dari Hive.
+- [x] Logout menghapus session dan kembali ke Login.
+- [x] GetX untuk state management, named route, binding, dependency injection.
+- [x] Notification bonus: show notification dan scheduled reminder.
+- [x] LBS bonus: lokasi, koordinat, dan alamat user.
